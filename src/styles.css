@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+*, ::before, ::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.btn{
+    padding: 1rem;
+}
+.btn-primary{
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
+}
+.btn-secondary{
+    background-color: rgba(72, 72, 252, .9);
+    color: white;
+}
+input{
+    margin: 5px;
+    height: 40px;
+}
